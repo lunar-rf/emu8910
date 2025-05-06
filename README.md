@@ -97,7 +97,7 @@ To run demo start web server: `python -m http.server 8000` and navigate to `inde
 | |____\___/|_|\_/_/ \_\_|_(_)___/_||_| |
 |                                       |
 |                                       |
-| Lunar Labs                            |
+| Lunar RF Labs                         |
 | https://lunar.sh                      |
 |                                       |
 | Research Laboratories                 |
