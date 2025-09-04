@@ -1,7 +1,13 @@
 # emu8910
 
 This repository contains a single file `Typescript` implementation of General Instrument's [`A-3-8910`](https://en.wikipedia.org/wiki/General_Instrument_AY-3-8910) `PSG` (programmable sound generator) in
-less than `1K` lines and without any magic constants!
+less than `1K` lines and without any magic constants! 
+
+The emulator allows for fine tuning of the DAC response though modification of the following variables:
+```
+const DAC_DECAY = 1.3;
+const DAC_SHIFT = 40;
+```
 
 It implements most of the `PSG's` original registers. <br>
 
