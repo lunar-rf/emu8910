@@ -100,7 +100,6 @@ To run demo start web server: `python -m http.server 8000` and navigate to `inde
 +---------------------------------------+
 |   .-.         .-.         .-.         |
 |  /   \       /   \       /   \        |
-| /     \     /     \     /     \     / |
 |        \   /       \   /       \   /  |
 |         "_"         "_"         "_"   |
 |                                       |
