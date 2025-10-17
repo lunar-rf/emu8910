@@ -85,6 +85,7 @@ These registers need to be updated at the frequency of the `ISR`.
 
 Files:
 
+* `emu8910.js` - precompiled js emulator core.
 * `src/emu8910.ts` - `core` emulator implementation.
 * `fym.js` - `FYM` `(Fast YM)` format parser.
 * `parser.js` - `PSG` register parser.
