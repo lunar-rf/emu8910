@@ -4,6 +4,7 @@
     var currentSong = 0;
 
     var songs = [
+        "jamalade.fym",
         "200km_nik-o.fym",
         "01_scalesmannmisfire.fym"
     ];
@@ -58,3 +59,4 @@
 
     document.addEventListener('click', loadAndPlay, false);
     document.addEventListener('touchend', loadAndPlay, false);
+
