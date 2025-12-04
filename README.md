@@ -91,7 +91,7 @@ Files:
 * `parser.js` - `PSG` register parser.
 * `index.html` - `HTML` boilerplate.
 
-To run demo start web server: `python3 -m http.server 8000` and navigate to `http://127.0.0.1:8000`.
+To run demo start web server: `python3 -m http.server 8000` and navigate to [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
 > Note: Click anywhere on the page to start audio output.
 
