@@ -26,7 +26,7 @@ The offical datasheet for the `PSG` can be found [`here`](http://map.grauw.nl/re
 Sound output is achieved in the browser through an `AudioContext()` hook. <br>
 This `emulator` also adds interrupt support (with variable frequency support) for updating the `PSG's` registers.
 
-> Note: `FIR` LPF data is generated procedurally.
+> Note: `FIR` LPF (Low-Pass Filter) data is generated procedurally.
 
 Compile with `tsc emu8910.ts`.
 
