@@ -66,7 +66,8 @@ emu8910.interrupt.frequency = song.getFrameRate()
 
 > Note: You can download modules from [https://ftp.modland.com/pub/modules/](https://ftp.modland.com/pub/modules/)
 
-This sets the `ISR` (Interrupt Service Routine) function, `clock` and `interrupt` frequency for a specific module.
+This snippet sets the `ISR` (Interrupt Service Routine) function which read/writes to the PSG register file and sets 
+the `clock` and `interrupt` frequency.
 
 To stop playback:
 ```
