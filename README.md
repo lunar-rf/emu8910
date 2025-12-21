@@ -24,7 +24,7 @@ The offical datasheet for the `PSG` can be found [`here`](http://map.grauw.nl/re
 > [`player link`](https://files.lunar.sh/apps/AYSir/?engine=lunar) [[`source`](https://github.com/DrSnuggles/AYSir)]
 
 Sound output is achieved in the browser through an `AudioContext()` hook. <br>
-This `emulator` also adds interrupt support (with variable frequency support) for updating the `PSG's` registers.
+This `emulator` also adds interrupt support (with a user defined frequency) for updating the `PSG's` registers.
 
 > Note: `FIR` LPF (Low-Pass Filter) data is generated procedurally.
 
