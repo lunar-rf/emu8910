@@ -86,11 +86,11 @@ These registers need to be updated at the frequency of the `ISR`.
 
 Files:
 
-* `emu8910.js` - precompiled js emulator core.
-* `src/emu8910.ts` - `core` emulator implementation.
-* `fym.js` - `FYM` `(Fast YM)` format parser.
-* `parser.js` - `PSG` register parser.
-* `index.html` - `HTML` boilerplate.
+* `emu8910.js` - precompiled js emulator core
+* `src/emu8910.ts` - `core` emulator implementation
+* `fym.js` - `FYM` `(Fast YM)` format parser
+* `parser.js` - `PSG` register parser
+* `index.html` - `HTML` boilerplate
 
 To run demo start web server: `python3 -m http.server 8000` and navigate to [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
