@@ -115,7 +115,7 @@ To run demo clone and start web server from the root directory: `python3 -m http
 | https://lunar.sh                      |
 |                                       |
 | Research Laboratories                 |
-| Donate XMR @ lunar.sh (OpenAlias)     |
+| Donate XMR @ 'lunar.sh' (OpenAlias)   |
 | Copyright (C) 2022-2024               |
 +---------------------------------------+
 ```
