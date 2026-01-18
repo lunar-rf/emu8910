@@ -7,7 +7,7 @@
 /___/_/  /_/\____/\___/___/_/\___/ 
                                    
 ```
-This repository contains a single file `Typescript` implementation of General Instrument's [`A-3-8910`](https://en.wikipedia.org/wiki/General_Instrument_AY-3-8910) `PSG` (programmable sound generator) in
+This repository contains a single file `Typescript` implementation of General Instrument's [`AY-3-8910`](https://en.wikipedia.org/wiki/General_Instrument_AY-3-8910) `PSG` (programmable sound generator) in
 less than `1K` lines and without any magic constants! 
 
 The emulator allows for fine tuning of the `DAC` look-up table though modification of the following variables:
@@ -25,6 +25,15 @@ The offical datasheet for the `PSG` can be found [`here`](http://map.grauw.nl/re
 
 Sound output is achieved in the browser through an `AudioContext()` hook. <br>
 This `emulator` also adds interrupt support (with a user defined frequency) for updating the `PSG's` registers.
+
+`AY8910` emulators naturally generate high frequency content which must be suppressed. This is achieved with a FIR low pass filter using a procedurally generated `Blackman-Harris` window.
+
+The `FIR` response can be changed through modifications of the following constants:
+
+```
+const FIR_CUTOFF = 2500; // Hz
+const FIR_TAPS = 100; // N taps
+```
 
 > Note: `FIR` LPF (Low-Pass Filter) data is generated procedurally.
 
