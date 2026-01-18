@@ -26,7 +26,7 @@ The offical datasheet for the `PSG` can be found [`here`](http://map.grauw.nl/re
 Sound output is achieved in the browser through an `AudioContext()` hook. <br>
 This `emulator` also adds interrupt support (with a user defined frequency) for updating the `PSG's` registers.
 
-`AY8910` emulators naturally generate high frequency content which must be suppressed. This is achieved with a FIR low-pass filter using a procedurally generated `Blackman-Harris` window.
+`AY8910` emulators naturally generate high frequency content which must be suppressed. This is achieved with a `FIR` `low-pass` filter using a procedurally generated `Blackman-Harris` window.
 
 The `FIR` response can be changed through modification of the following constants:
 
