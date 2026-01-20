@@ -58,7 +58,7 @@ const CUBIC_INTERPOL = 0.5;
 const FIR_CUTOFF = 2500; // Hz
 const FIR_TAPS = 100; // N taps
 
-const WAVE_OVERSAMPLE = 16;
+const WAVE_OVERSAMPLE = 8;
 var FIR = []; // coeff
 
 class Interpolator {
