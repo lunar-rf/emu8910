@@ -32,7 +32,7 @@ The `FIR` response can be changed through modification of the following constant
 
 ```
 const FIR_CUTOFF = 5000; // Hz
-const FIR_TAPS = 50; // N taps
+const FIR_TAPS = 100; // N taps
 ```
 
 > Note: `FIR` LPF (Low-Pass Filter) data is generated procedurally.
